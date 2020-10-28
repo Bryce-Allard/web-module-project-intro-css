@@ -46,3 +46,68 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+*{
+    
+}
+body{
+    margin: 2% 5%;
+    
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+nav{
+    
+}
+
+button{
+    padding:1% 3%;
+    border-radius: 20px;
+    margin: 0 4% 0 10%;
+    border:none;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1rem;
+    color:white;
+}
+
+.plan{
+    background-color: #FF764E;
+}
+
+.learn{
+    background-color: #5ED3EB;
+}
+
+.get{
+    background-color: #FFCD69;
+}
+
+.top{
+    border: 1px solid green;
+    margin-top: 3%;
+}
+
+.valleyimg{
+    display:inline;
+    border: 1px solid blue;
+    padding: 2rem; 
+}
+
+.topimg{
+    width:20%;
+    border-radius:50%;
+    border: 1px solid blue;
+}
+
+.midtxt{
+    background-color: #DDB9A3;
+    color:white;
+    padding: 2%;
+    margin: 2%;
+    text-align: center;
+}
+
+.camping img{
+    width:20%;
+    margin:0 40%
+}
