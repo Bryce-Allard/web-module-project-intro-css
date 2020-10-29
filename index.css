@@ -46,12 +46,8 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-*{
-    
-}
-body{
+.main{
     margin: 2% 5%;
-    
     font-family: 'Roboto Mono', monospace;
 
 }
@@ -83,20 +79,27 @@ button{
 }
 
 .top{
-    border: 1px solid green;
     margin-top: 3%;
-}
-
-.valleyimg{
-    display:inline;
-    border: 1px solid blue;
-    padding: 2rem; 
+    display:inline-block;
 }
 
 .topimg{
     width:20%;
     border-radius:50%;
-    border: 1px solid blue;
+}
+
+.guide{
+    display:inline-block;
+    width: 50%;
+    text-align: center;
+    font-family: 'Chelsea Market', cursive;
+    /* margin: 1% 3% 9% 3%; */
+    padding: 0% 10%;
+    margin-top: 1px;
+}
+
+.guide h1{
+    font-size: 2.2rem;
 }
 
 .midtxt{
@@ -108,6 +111,30 @@ button{
 }
 
 .camping img{
-    width:20%;
-    margin:0 40%
+    width:15%;
+    margin:0 48%
+}
+
+.camping p{
+    width:45%;
+    margin: 1% 30%;
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+footer{
+    width:100%;
+    margin:2% 0%;
+}
+
+footer img{
+    height:17rem;
+    width:100%;
+}
+
+.bottom{
+    padding: 1% 1% 3% 1%;
 }
